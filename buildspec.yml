@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Nothing to install for static websites."
+
+artifacts:
+  files:
+    - '**/*'
+  # discard-paths: yes
